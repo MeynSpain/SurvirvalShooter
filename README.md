@@ -29,8 +29,11 @@ Add:
 ### Commits
 SS-04 #comment Add Storage Component and Storage Item  
   
-![img.png](img.png)  
-![img_2.png](img_2.png)
-![img_1.png](img_1.png)  
+![img.png](Images/img.png)  
+![img_2.png](Images/img_2.png)
+![img_1.png](Images/img_1.png)  
 
+SS-05 #comment Inventory  
 
+![img_3.png](Images/img_3.png)  
+![img_4.png](Images/img_4.png)

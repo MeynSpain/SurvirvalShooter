@@ -40,17 +40,32 @@ SS-05 #comment Inventory
 
 ## Branch: Feature/Weapon  
 Add:  
-1. Enum: E_DamageType  
+1. Enum: `E_DamageType`  
 Stores the types of damage:  
 * Simple Damage
 * Point Damage
 * Radial Damage (fallof)
-2. BluePrint: BP_Weapon_Base  
+2. BluePrint: `BP_Weapon_Base`  
 Added functinons:
     * Deal Damage  
     Depends on the type of damage  
     * Deal Radial Damage  
     Called in Deal Damage if DamageType = Radial Damage
-    * @Overide Equip Component
-3. BluePrint: BP_EqipComponent
-4. Library with Weapons Assets
+    * @Override Equip Item
+    * @Override Un Equip Item
+    * Use Weapon
+3. BluePrint: `BPC_EqipComponent` 
+Functions:  
+    * Equip Item
+    * Un Equip Item
+    * Is Slot Equipped
+    * Equip Weapon
+    * Attach Weapon
+4. Library with Weapons Assets  
+5. BluePrint: `BP_RangeWeapon` - it's child of `BP_Weapon_Base`
+6. BluePrint: `W_Rifle` - it's child of `BP_RangeWeapon` 
+
+In `BP_EquipableItem` logic was changed in functions:  
+ * Equip Item
+ * Un Equip Item
+ * @Override Dropped to World

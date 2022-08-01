@@ -68,4 +68,11 @@ Functions:
 In `BP_EquipableItem` logic was changed in functions:  
  * Equip Item
  * Un Equip Item
- * @Override Dropped to World
+ * @Override Dropped to World  
+
+ SS-08 #  
+ Add:
+  * Aiming it's function in `BP_SurvivalCharacter`  
+  * AutoFire
+  * Ammo
+  * Use Ammo
